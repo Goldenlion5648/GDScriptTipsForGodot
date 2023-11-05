@@ -1,7 +1,10 @@
 extends Node2D
+#just attach this script to a node to run the code! 
+#Or run the show_tips.tscn scene
 
 
-# Called when the node enters the scene tree for the first time.
+#Goes with this video https://youtu.be/redCya8jNN8
+
 func _ready() -> void:
 #	extreme_values()
 #	lambda_example()
@@ -49,7 +52,6 @@ func adjust_values():
 	var n = 5.2
 	print(round(n))
 	print(ceil(n))
-	var m = 5.8
 	print(floor(n))
 	
 	var a = 5
